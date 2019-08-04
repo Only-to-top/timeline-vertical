@@ -11,7 +11,12 @@ body {background-color: #3a3a3a;}
 
 /* timeline */
 .timeline {
+    float: left;
+    width: 100%;
     padding: 40px 0;
+}
+.timeline > .container {
+    float: none;
 }
 .timeline-item {
     padding: 10px 0;
@@ -22,8 +27,8 @@ body {background-color: #3a3a3a;}
     position: absolute;
     width: 1px;
     height: 100%;
-    background-color: #fff;
-    color: #fff;
+    background-color: #1080f2;
+    color: #1080f2;
     font-size: 26px;
     line-height: 60px;
     text-indent: -7px;
@@ -33,10 +38,10 @@ body {background-color: #3a3a3a;}
     content: '●';
     position: absolute;
     top: -4.5px;
-    color: rgba(255,255,255,.5);;
+    color: #83bbf4;
     font-size: 44px;
     line-height: 196%;
-    text-indent: 77px;
+    text-indent: 76px;
     z-index: 1;
 }
 .timeline-item-title {
@@ -49,12 +54,6 @@ body {background-color: #3a3a3a;}
     line-height: 1.4;
     margin: 4px 0 0 0;
     font-size: 14px;
-}
-.timeline-item p span {
-    display: block;
-    font-size: 12px;
-    color: red;
-    margin-top: 5px;
 }
 .timeline-item:nth-child(2n+1) {
     text-align: right;
